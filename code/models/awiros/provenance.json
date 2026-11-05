@@ -1,0 +1,15 @@
+{
+  "source": "https://huggingface.co/Awiros/anpr-ocr",
+  "revision": "eadbc5ae4faa8284c8a547a60142fd555c3059ca",
+  "license": "Apache-2.0",
+  "export_paddle_version": "3.3.1",
+  "paddleocr_revision": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+  "sha256": {
+    "model.safetensors": "f9f1264e0c115a239ca6d6700a74ceffab17168b75dafc6c169c232012c68e47",
+    "inference.json": "7410edfcc4da5609a8e07b28481f668686a1ff2d4a4514c8ffc520d6deec93cb",
+    "en_dict.txt": "0a94bb85eb456a04aae7ba2505fde280818649440e122922adcc5f3ab073dc72",
+    "LICENSE": "3840c5c0c61c294264d2dd77b8777be6ddd90121ef4e0e64abcd22edea581d6e",
+    "inference.pdiparams": "8c13542fba98eba43a8840b926c88c98198dd14b9db39457e526e596d342b4f4",
+    "architecture.json": "f978a3e81898f0622fd6d84640e49955d37b2a725b54fe4f204eaf1f75636091"
+  }
+}

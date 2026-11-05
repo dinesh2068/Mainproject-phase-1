@@ -1,0 +1,38 @@
+{
+  "camera": "gate-1",
+  "vehicle_model": "models/yolo26n.pt",
+  "device": "cpu",
+  "image_size": 640,
+  "vehicle_confidence": 0.3,
+  "ocr_every": 3,
+  "grace_seconds": 1.5,
+  "gate": {
+    "y": 0.55,
+    "left": 0.05,
+    "right": 0.95,
+    "deadband": 0.035,
+    "stable_frames": 2,
+    "max_gap": 2.0,
+    "increasing_direction": "entry"
+  },
+  "consensus": {
+    "window": 2,
+    "votes": 3,
+    "agreement": 0.8,
+    "confidence": 0.95,
+    "span": 0.2,
+    "syntax": true,
+    "min_reading_confidence": 0.95
+  },
+  "ocr_interval_seconds": 0.1,
+  "plate_overrides": {
+    "ocr_backend": "awiros",
+    "crop_padding": 0,
+    "min_crop_width": 64,
+    "min_crop_height": 16,
+    "unfold_two_rows": true,
+    "min_two_row_width": 40,
+    "image_size": 1280
+  },
+  "warmup": true
+}

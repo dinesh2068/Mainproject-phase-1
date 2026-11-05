@@ -1,0 +1,26 @@
+{
+  "camera": "gate-1",
+  "vehicle_model": "models/yolo26n.pt",
+  "device": "cpu",
+  "image_size": 640,
+  "vehicle_confidence": 0.3,
+  "ocr_every": 3,
+  "grace_seconds": 1.5,
+  "gate": {
+    "y": 0.55,
+    "left": 0.05,
+    "right": 0.95,
+    "deadband": 0.035,
+    "stable_frames": 2,
+    "max_gap": 2.0,
+    "increasing_direction": "entry"
+  },
+  "consensus": {
+    "window": 3.0,
+    "votes": 3,
+    "agreement": 0.8,
+    "confidence": 0.85,
+    "span": 0.2,
+    "syntax": true
+  }
+}

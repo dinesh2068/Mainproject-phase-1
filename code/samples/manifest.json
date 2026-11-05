@@ -1,0 +1,22 @@
+[
+  {
+    "file": "indian-input-frame-0.jpg",
+    "sha256": "ae09f8370bd76bec521f8d63b6cecd18829cd4386f670ea10dfc72d37e47bf2e",
+    "source_video": "indian-input.mp4",
+    "frame_index": 0,
+    "kind": "unannotated extracted frame",
+    "source": {
+      "url": "https://raw.githubusercontent.com/vipulcj/AUTOMATIC-LICENSE-PLATE-RECOGNITION-FOR-INDIAN-VEHICLES-/main/input.mp4",
+      "repository": "https://github.com/vipulcj/AUTOMATIC-LICENSE-PLATE-RECOGNITION-FOR-INDIAN-VEHICLES-",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "note": "Public development sample, not campus footage. Media rights may differ from repository code license."
+    },
+    "note": "Extracted image included; the source video is not bundled."
+  }
+]

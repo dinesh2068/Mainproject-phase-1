@@ -1,0 +1,12 @@
+{
+  "started": "2026-10-15T11:47:58.413208+00:00",
+  "completed": true,
+  "epochs": 20,
+  "images": 654,
+  "unique_plate_labels": 137,
+  "data_sha256": "f3d687c0156403cf5c3430326a5d644d095d2a3ceb254d07e8cd0398412025a1",
+  "validation_scope": "training-set diagnostics only; not held-out accuracy",
+  "checkpoint_selection": "last epoch, fixed budget; no external test tuning",
+  "finished": "2026-10-15T11:53:56.705309+00:00",
+  "weights": "/content/runs/indian_plate_yolo26s/weights/last.pt"
+}

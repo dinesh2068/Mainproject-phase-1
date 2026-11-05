@@ -1,0 +1,10 @@
+{
+  "plate_confidence": 0.35,
+  "ocr_confidence": 0.85,
+  "image_size": 960,
+  "max_upload_mb": 10,
+  "max_pixels": 20000000,
+  "queue_size": 8,
+  "retention_days": 30,
+  "session_hours": 8
+}

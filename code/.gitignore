@@ -1,0 +1,8 @@
+.venv/
+node_modules/
+data/
+backups/
+restored-data/
+__pycache__/
+.pytest_cache/
+*.pyc

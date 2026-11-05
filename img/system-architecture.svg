@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1020" viewBox="0 0 1080 1020">
+<rect width="1080" height="1020" fill="white"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="black"/></marker></defs>
+<g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+<text x="540" y="42" font-size="25" font-weight="bold">AVACLS — Gate access and logging</text>
+<rect x="80" y="80" width="400" height="64" rx="3" fill="white" stroke="black" stroke-width="2"/>
+<text x="280.0" y="118.0" font-size="18">Live camera / recorded video</text>
+<rect x="600" y="80" width="400" height="64" rx="3" fill="white" stroke="black" stroke-width="2"/>
+<text x="800.0" y="118.0" font-size="18">Image upload</text>
+<rect x="80" y="190" width="400" height="78" rx="3" fill="white" stroke="black" stroke-width="2"/>
+<text x="280.0" y="223.0" font-size="18">Vehicle detection + BoT-SORT</text>
+<text x="280.0" y="247.0" font-size="18">Track association</text>
+<path d="M280 144 L280 190" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="80" y="320" width="920" height="85" rx="3" fill="white" stroke="black" stroke-width="2"/>
+<text x="540.0" y="356.5" font-size="18">Shared plate detection + OCR</text>
+<text x="540.0" y="380.5" font-size="18">YOLO26s plate model • PP-OCRv5 / optional Awiros</text>
+<path d="M280 268 L280 320" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800 144 L800 320" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="80" y="455" width="400" height="78" rx="3" fill="white" stroke="black" stroke-width="2"/>
+<text x="280.0" y="488.0" font-size="18">Video: multi-frame confirmation</text>
+<text x="280.0" y="512.0" font-size="18">Directional crossing detection</text>
+<rect x="600" y="455" width="400" height="78" rx="3" fill="white" stroke="black" stroke-width="2"/>
+<text x="800.0" y="488.0" font-size="18">Image: security review</text>
+<text x="800.0" y="512.0" font-size="18">Confirm direction and event time</text>
+<path d="M280 405 L280 455" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800 405 L800 455" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="80" y="590" width="920" height="78" rx="3" fill="white" stroke="black" stroke-width="2"/>
+<text x="540.0" y="623.0" font-size="18">Local registry check + duplicate controls</text>
+<text x="540.0" y="647.0" font-size="18">Preserve uncertain passages for review</text>
+<path d="M280 533 L280 590" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800 533 L800 590" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="80" y="725" width="400" height="78" rx="3" fill="white" stroke="black" stroke-width="2"/>
+<text x="280.0" y="758.0" font-size="18">SQLite event records</text>
+<text x="280.0" y="782.0" font-size="18">Original OCR + audit history</text>
+<rect x="600" y="725" width="400" height="78" rx="3" fill="white" stroke="black" stroke-width="2"/>
+<text x="800.0" y="758.0" font-size="18">Security dashboard</text>
+<text x="800.0" y="782.0" font-size="18">Review uncertain records</text>
+<path d="M280 668 L280 725" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800 668 L800 725" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M600 764 L480 764" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="80" y="865" width="920" height="78" rx="3" fill="white" stroke="black" stroke-width="2"/>
+<text x="540.0" y="898.0" font-size="18">FastAPI backend + React frontend</text>
+<text x="540.0" y="922.0" font-size="18">Scan • Vehicle records • Vehicle registry • Settings</text>
+<path d="M280 803 L280 865" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800 803 L800 865" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="540" y="984" font-size="16">Image processing uses one frame; temporal confirmation applies to video.</text>
+</g></svg>
